@@ -1,0 +1,120 @@
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+}
+form{
+    box-shadow: 0 0 20px rgba(174, 250, 255, 0.4) ;
+    padding: 50px 35px ;
+    border-radius: 25px;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    width: 380px;
+
+}
+form h2{
+    font-size: 35px;
+    color: #0d0d0d;
+    margin:0;
+}
+form p{
+    font-size: 10 px;
+    color: #5e5e5e;
+    margin-bottom: 0 ;
+}
+.input-wrapper {
+    width: 400px;
+    margin-bottom: 15px ;
+}
+.add{
+    text-decoration:none;
+    display: inline-block;
+    width:10px;
+    height:10px;
+    background: #8bc34a;
+    font-size:1rem;
+    font-weight: bold;
+    color:#fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.add2{
+    text-decoration:none;
+    display: inline-block;
+    width:10px;
+    height:10px;
+    background: #8bc34a;
+    font-size:1rem;
+    font-weight: bold;
+    color:#fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.add3{
+    text-decoration:none;
+    display: inline-block;
+    width:10px;
+    height:10px;
+    background: #8bc34a;
+    font-size:1rem;
+    font-weight: bold;
+    color:#fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add4{
+    text-decoration:none;
+    display: inline-block;
+    width:10px;
+    height:10px;
+    background: #8bc34a;
+    font-size:1rem;
+    font-weight: bold;
+    color:#fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    display:flex;
+    gap:1em;
+}
+
+.delete{
+    text-decoration:none;
+    display:inline-block;
+    background: #f44336;
+    color:#fff;
+    font-size:1.5rem;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    color:#fff;
+    margin-left: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+input{
+    padding: 8px 10px;
+    background: #efefef;
+    border:none;
+    width: 50%;
+    border-radius: 5px;
+
+}
+input:focus{
+    outline: 1px solid #efefef;
+}
+.inp-group{
+    margin-bottom: 20px;
+}
